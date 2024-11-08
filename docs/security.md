@@ -40,6 +40,19 @@ claimRewards():
 - Emergency pause functionality
 - Upgrade mechanisms
 
+## Layer 2 Security Considerations
+
+### AltLayer-Specific Security
+- Restaked rollup security verification
+- Cross-layer message verification
+- Bridge security protocols
+- EigenLayer restaking validation
+
+### Data Availability
+- EigenDA integration checks
+- Data availability verification
+- State root validation
+
 ## Token Security
 
 ### Supported Assets (Testnet1)
