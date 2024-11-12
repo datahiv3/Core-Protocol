@@ -1,6 +1,6 @@
 # Core Protocol Repository
 
-The DataHive Core Protocol powers the DataHive ecosystem, currently deployed on OP Sepolia (testnet1). This protocol serves as the foundation for secure data operations, node coordination, and integration with our ecosystem's Storage Layer, enabling privacy-preserving AI compute across the network.
+The **[DataHive Core Protocol](/docs/protocol/overview.md)** powers the DataHive ecosystem, currently deployed on **[OP Sepolia](/docs/network/op-sepolia.md)** (testnet1). This protocol serves as the foundation for **[secure data operations](/docs/protocol/data-ops.md)**, **[node coordination](/docs/protocol/node-coordination.md)**, and integration with our ecosystem's **[Storage Layer](/docs/infrastructure/storage-layer.md)**, enabling **[privacy-preserving AI compute](/docs/ai/privacy-compute.md)** across the network.
 
 ## 🌟 Characteristics
 - **[Decentralized by Design](/docs/architecture/zero-trust.md)**: Zero-trust architecture with blockchain-powered verification and trust
@@ -9,15 +9,22 @@ The DataHive Core Protocol powers the DataHive ecosystem, currently deployed on 
 - **[Multi-Node Intelligence](/docs/nodes/distributed-compute.md)**: Specialized nodes working in harmony through distributed tensor computation
 
 ## 🔄 Active Development
-- **Testnet1**: Live on OP Sepolia, integrated with 0G AIOS
-- **LN1 Node Program**: Active onboarding of Legalese Nodes
-- **Nucleus Deployment**: Pilot program for educational data protection
-- **Developer Resources**: Comprehensive documentation and integration guides
+- **[Testnet1 Integration](/docs/network/testnet1.md)**: Live on OP Sepolia, integrated with 0G AIOS
+- **[LN1 Node Program](/docs/nodes/ln1-program.md)**: Active onboarding of Legalese Nodes
+- **[Nucleus Deployment](/docs/deployments/nucleus.md)**: Pilot program for educational data protection
+- **[Developer Resources](/docs/developers/README.md)**: Comprehensive documentation and integration guides
+
+**Quick Links:**
+- [🔧 Node Setup Guide](/docs/nodes/setup-guide.md)
+- [📊 Network Status](https://status.datahive.network)
+- [💻 Developer Portal](/docs/developers/getting-started.md)
 
 ## 🔄 Node Architecture
 ![DataHive Node Types](images/NodeTypes.png)
 
-## 🛠 Core Components
+## 🤖 Agentic Layer
+The protocol's agentic layer enables secure, user-controlled AI operations across the network:
+![DataHive Agentic Layer](images/AgenticLayer.png)
 
 ### Network Infrastructure
 - **[0G AI Operating System](/docs/infrastructure/0g-aios.md)**: Decentralized compute and storage layer
