@@ -1,8 +1,18 @@
+# Core Protocol Repository
+
+The DataHive Core Protocol powers the DataHive ecosystem, currently deployed on OP Sepolia (testnet1). This protocol serves as the foundation for secure data operations, node coordination, and integration with our ecosystem's Storage Layer, enabling privacy-preserving AI compute across the network.
+
 ## 🌟 Characteristics
 - **[Decentralized by Design](/docs/architecture/zero-trust.md)**: Zero-trust architecture with blockchain-powered verification and trust
 - **[AI-Powered Privacy](/docs/ai/privacy-computing.md)**: On-device AI with differential privacy and federated learning
 - **[Self-Sovereign Data](/docs/data/sovereignty.md)**: Users maintain complete control through cryptographic data vaults
 - **[Multi-Node Intelligence](/docs/nodes/distributed-compute.md)**: Specialized nodes working in harmony through distributed tensor computation
+
+## 🔄 Active Development
+- **Testnet1**: Live on OP Sepolia, integrated with 0G AIOS
+- **LN1 Node Program**: Active onboarding of Legalese Nodes
+- **Nucleus Deployment**: Pilot program for educational data protection
+- **Developer Resources**: Comprehensive documentation and integration guides
 
 ## 🔄 Node Architecture
 ![DataHive Node Types](images/NodeTypes.png)
