@@ -1,6 +1,7 @@
 # Core Protocol Repository
 
-The **[DataHive Core Protocol](/docs/protocol/overview.md)** powers the DataHive ecosystem, currently deployed on **[OP Sepolia](/docs/network/op-sepolia.md)** (testnet1). This protocol serves as the foundation for **[secure data operations](/docs/protocol/data-ops.md)**, **[node coordination](/docs/protocol/node-coordination.md)**, and integration with our ecosystem's **[Storage Layer](/docs/infrastructure/storage-layer.md)**, enabling **[privacy-preserving AI compute](/docs/ai/privacy-compute.md)** across the network.
+The **[DataHive Core Protocol](/docs/protocol/overview.md)** powers the DataHive ecosystem, currently deployed on **[OP Sepolia](/docs/network/op-sepolia.md)** (testnet1). This protocol serves as the foundation for **[secure data operations](/docs/protocol/data-ops.md)**, **[node coordination](/docs/protocol/node-coordination.md)**, and integration with our **[Storage Layer](https://github.com/datahiv3/Storage-Layer/blob/d722c7a364797408d40238d9f0debd043636a9d2/README.md)**, enabling **[privacy-preserving AI compute](/docs/ai/privacy-compute.md)** across the network.
+
 
 ## 🌟 Characteristics
 - **[Decentralized by Design](/docs/architecture/zero-trust.md)**: Zero-trust architecture with blockchain-powered verification and trust
@@ -27,9 +28,9 @@ The protocol's agentic layer enables secure, user-controlled AI operations acros
 ![DataHive Agentic Layer](images/AgenticLayer.png)
 
 ### Network Infrastructure
-- **[0G AI Operating System](/docs/infrastructure/0g-aios.md)**: Decentralized compute and storage layer
-- **[P2P Overlay Network](/docs/infrastructure/p2p-mesh.md)**: Self-healing mesh topology with DHT routing
-- **[Distributed Processing](/docs/infrastructure/distributed-compute.md)**: Parallel AI workload execution across nodes
+- **[0G Protocol](https://github.com/datahiv3/Storage-Layer/blob/d722c7a364797408d40238d9f0debd043636a9d2/docs/0g-protocol.md)**: Decentralized compute and storage layer
+- **[Storage Node Network](https://github.com/datahiv3/Storage-Layer/blob/d722c7a364797408d40238d9f0debd043636a9d2/docs/storage-node-network.md)**: Self-healing mesh topology with DHT routing
+- **[Protocol Agnostic Layer](https://github.com/datahiv3/Storage-Layer/blob/d722c7a364797408d40238d9f0debd043636a9d2/docs/protocol-agnostic.md)**: Parallel AI workload execution across nodes
 - **[Zero-Knowledge Security](/docs/security/zkp-framework.md)**: Enterprise-grade encryption with attribute-based access
 
 ### Network Nodes
