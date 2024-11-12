@@ -1,48 +1,26 @@
-# Core Protocol Repository
+## 🌟 Characteristics
+- **[Decentralized by Design](/docs/architecture/zero-trust.md)**: Zero-trust architecture with blockchain-powered verification and trust
+- **[AI-Powered Privacy](/docs/ai/privacy-computing.md)**: On-device AI with differential privacy and federated learning
+- **[Self-Sovereign Data](/docs/data/sovereignty.md)**: Users maintain complete control through cryptographic data vaults
+- **[Multi-Node Intelligence](/docs/nodes/distributed-compute.md)**: Specialized nodes working in harmony through distributed tensor computation
 
-This repository contains the components and architecture necessary for the **Core Protocol** of the DataHive ecosystem. The Core Protocol serves as the foundation for data operations, security mechanisms, and interoperability with various nodes and services within DataHive. It is essential for establishing secure, efficient, and transparent interactions across the network.
+## 🔄 Node Architecture
+![DataHive Node Types](images/NodeTypes.png)
 
-### Purpose
-The purpose of this repository is to define, develop, and maintain the core functionalities that power the DataHive ecosystem. This includes implementing [APIs](./docs/API-Gateway.md), [data handling protocols](./docs/Data-Handling-Protocols.md), and [security features](./docs/Security-Features.md) to safeguard user data and ensure compliance with global regulations.
+## 🛠 Core Components
 
-### Key Features
-- **[API Gateway](./docs/API-Gateway.md)**: Centralized API management for interacting with nodes.
-- **[Data Handling Protocols](./docs/Data-Handling-Protocols.md)**: Mechanisms to ensure secure and efficient data transactions between nodes and external applications.
-- **[Security Features](./docs/Security-Features.md)**: Encryption, authentication, and compliance protocols to protect user data.
-- **[Interoperability](./docs/Interoperability.md)**: Facilitating communication between different types of nodes (e.g., Legalese Nodes, Consent Nodes).
+### Network Infrastructure
+- **[0G AI Operating System](/docs/infrastructure/0g-aios.md)**: Decentralized compute and storage layer
+- **[P2P Overlay Network](/docs/infrastructure/p2p-mesh.md)**: Self-healing mesh topology with DHT routing
+- **[Distributed Processing](/docs/infrastructure/distributed-compute.md)**: Parallel AI workload execution across nodes
+- **[Zero-Knowledge Security](/docs/security/zkp-framework.md)**: Enterprise-grade encryption with attribute-based access
 
-### Folder Structure
-This repository is organized into the following structure:
+### Network Nodes
+- **[Legalese Nodes](/docs/nodes/legalese.md)**: Smart contract-powered legal document processing
+- **[Consent Nodes](/docs/nodes/consent.md)**: Granular permission management with blockchain audit trails
+- **[Data Assetization Nodes](/docs/nodes/assetization.md)**: Tokenized data rights and value creation
+- **[Data Securitization Nodes](/docs/nodes/securitization.md)**: Automated compliance and risk management
 
-- `docs/`: Documentation related to core protocol architecture, APIs, security protocols, and other essential components.
-  - Example files:
-    - `API-Gateway.md`: Documentation on how external applications interact with nodes via APIs.
-    - `Data-Handling-Protocols.md`: Detailed explanation of how data is processed securely within the protocol.
-    - `Security-Features.md`: Information on encryption protocols, authentication mechanisms, and compliance standards.
-    - `Interoperability.md`: Details on how various nodes communicate within the DataHive ecosystem.
-  
-- `src/`: Source code for core protocol components such as API gateways, consensus mechanisms, and node interaction logic.
-
-- `tests/`: Unit tests and integration tests for validating core protocol functionality.
-
-- `scripts/`: Utility scripts for deployment, testing automation, or other tasks related to maintaining the core protocol.
-
-### How to Contribute
-We welcome contributions from students, contractors, node launchpads, NaaS (Node-as-a-Service) providers, and internal development teams! However, since this project is still in its early stages, we are managing contributions carefully to ensure that development aligns with our roadmap and goals.
-
-#### Steps to Contribute:
-1. **Express Interest**: If you're interested in contributing or partnering (e.g., as a contractor or NaaS provider), please reach out via email at [team@datahive.network](mailto:team@datahive.network) or join our community on [Telegram](https://t.me/datahiveofficial).
-2. **Get Assigned Tasks**: Once you've expressed interest, we will assign tasks or issues for you to work on based on your expertise.
-3. **Collaborate**: Collaborate with our internal team or other contributors through GitHub issues and pull requests.
-4. **Submit Pull Requests**: Once a task is completed, submit a pull request for review by our core team.
-
-## For Contractors & Partners
-
-If you are a contractor or a potential partner (e.g., node launchpads or NaaS providers) interested in collaborating with DataHive on node deployment or other services related to our Core Protocol development:
-
-1. Contact us via email at [team@datahive.network](mailto:team@datahive.network).
-2. Join our Telegram community at [Telegram](https://t.me/datahiveofficial).
-3. We will provide further instructions on how you can get involved in specific tasks or projects.
-
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[➡️ Read our detailed Technical Architecture](/docs/ARCHITECTURE.md)  
+[🔒 Learn about our Security Model](/docs/SECURITY.md)  
+[🤖 Explore our AI Implementation](/docs/AI-SYSTEM.md)
